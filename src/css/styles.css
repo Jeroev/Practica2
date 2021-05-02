@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+#main {
+    text-align: center;
+}
+
+#title {
+    height: 70px;
+    background-color: rgb(127, 0, 247);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 21px;
+}
+
+#description{
+    font-weight: bold ;
+    color: rgb(0, 0, 0);
+}
+
+#description:hover{
+    text-decoration: underline;
+}
+
+#button {
+    color: black;
+    background-color: #fff;
+}
+
+#inputs:hover{
+    border-color: gray;
+}
+#button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(97, 134, 255);
+    transition: background-color .5s
+}
