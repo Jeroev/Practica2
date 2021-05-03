@@ -7,6 +7,7 @@ export function searchPhrase(InsideLink, paragraphClass){
         .then(response =>response.json())
         .then(receive => Object.values(receive['phrases']))
         .then(datos => {addData(datos, InsideLink, paragraphClass)})
+        .catch(err =>console.log(err.message))
 }
 
 //recorre el objeto que entrega la busqueda en el fetch,
