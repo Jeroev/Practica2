@@ -29,7 +29,7 @@ html {
     color: rgb(0, 0, 0);
 }
 
-#description:hover{
+p > p:hover{
     text-decoration: underline;
 }
 
@@ -45,4 +45,9 @@ html {
     color: rgb(255, 255, 255);
     background-color: rgb(97, 134, 255);
     transition: background-color .5s
+}
+
+#childNot {
+    color: red;
+    font-weight: bold ;
 }
